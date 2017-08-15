@@ -1,0 +1,25 @@
+<html>
+<head>
+  <link rel="stylesheet" href="/css/master.css">
+</head>
+<body>
+  <h1>{{title}}</h1>
+  <a href="/ohhai">Click Me!</a>
+
+  <div class="people">
+
+    {{#people}}
+      <div class="person">
+        <h5>{{name}}</h5>
+        <a href="/people/{{id}}">More Info</a>
+
+        {{#singer}}[SINGER]{{/singer}}
+        {{^singer}}[NOT A SINGER]{{/singer}}
+
+        <img src="/images/{{photo}}" alt="">
+      </div>
+    {{/people}}
+  </div>
+
+</body>
+</html>

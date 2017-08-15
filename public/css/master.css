@@ -1,0 +1,11 @@
+body {
+  background: pink;
+}
+.people {
+  display: flex;
+  flex-wrap: wrap;
+}
+.person img {
+  width: 200px;
+  height: 200px;
+}
