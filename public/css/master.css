@@ -1,6 +1,4 @@
-body {
-  background: pink;
-}
+
 .people {
   display: flex;
   flex-wrap: wrap;
